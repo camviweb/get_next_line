@@ -3,3 +3,7 @@ Que ce soit un fichier, stdin, vous aurez besoin d'un moyen de lire le contenu l
 
 # Keywords
 - variables statiques
+
+### Dump
+- read()
+- 
