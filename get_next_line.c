@@ -1,3 +1,4 @@
+
 char    *get_next_line(int fd){
     static char*    rest;
     if (fd == -1) // BUFFER_SIZE invalid ?
@@ -5,7 +6,7 @@ char    *get_next_line(int fd){
 }
 
 ssize_t read_fd(int fd, void *buf, size_t count){
-    
+
 }
 
 #include <fcntl.h>
