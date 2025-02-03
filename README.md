@@ -28,3 +28,4 @@ https://web.archive.org/web/20220508112214/https://www.codequoi.com/en/42-get_ne
 - [ ] read
 - [ ] Des appels successifs à votre fonction doivent vous permettre de lire l’intégralité du fichier texte référencé par le descripteur de fichier, une ligne à la fois.
 - [ ] Vous devez toujours retourner la ligne qui a été lue suivie du \n la terminant, sauf dans le cas où vous avez atteint la fin du fichier et que ce dernier ne se termine pas par un \n.
+- [ ] buffer size = a size in bytes to read, in other words, the number of characters to read
