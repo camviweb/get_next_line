@@ -5,7 +5,9 @@
 # include <stdlib.h> //malloc, free
 # include <unistd.h> //read
 
-#define BUFFER_SIZE 42
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 42
+# endif
 
 char	*get_next_line(int fd);
 int	has_newline(char *str);
