@@ -4,7 +4,7 @@ char	*get_next_line(int fd)
 {
 	char	*buf;
 	int		r;
-	static char *rest = NULL;
+	static char    *rest = NULL;
 	char *line;        // = NULL
 	char *tmp;
 	
@@ -19,6 +19,7 @@ char	*get_next_line(int fd)
 		r = read(fd, buf, BUFFER_SIZE);
 		if (r == -1)
 		{
+			// free
 			return (NULL);
 		}
 		buf[r] = '\0';
