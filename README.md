@@ -6,7 +6,6 @@ https://web.archive.org/web/20220508112214/https://www.codequoi.com/en/42-get_ne
 
 ### To code
 
-- [x] 1 variable statique
 - [ ] NULL si rien d'autre à lire ou erreur
 - [ ] retourner la ligne qui a été lue suivie du \n la terminant, sauf dans le cas où vous avez atteint la fin du fichier et que ce dernier ne se termine pas par un \n.
 - [ ] buffer size = a size in bytes to read, in other words, the number of characters to read
@@ -16,7 +15,7 @@ https://web.archive.org/web/20220508112214/https://www.codequoi.com/en/42-get_ne
 - [ ] ne pas s'arrêter de façon inattendue (segmentation fault, bus error, double free) sauf comportements indéfinis
 - [ ] Toute mémoire allouée sur la heap doit être libéré lorsque c’est nécessaire. Aucun leak ne sera toléré. -> valgrind
 - [ ] guidelines correction
-- [ ] francinette
+- [x] francinette
 - [ ] norminette
 
 ### To learn
