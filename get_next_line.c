@@ -52,10 +52,7 @@ void	ft_read(int fd, char **rest, char **tmp)
 	{
 		r = read(fd, buf, BUFFER_SIZE);
 		if (r == -1)
-		{
-			ft_free(&buf, rest, 0);
-			return ;
-		}
+			return (ft_free(&buf, rest, 0));
 		buf[r] = '\0';
 		if (*rest == NULL)
 			*rest = ft_strdup("");
